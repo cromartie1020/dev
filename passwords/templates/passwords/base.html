@@ -1,0 +1,29 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'passwords/bootstrap.min.css' %}" />
+
+    <title>{% block title%} Home {% endblock %}</title>
+  </head>
+  <body>
+    {% include 'passwords/navbar.html' %}
+    <div class="container">
+    {% block content %}
+    <h1>Home</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="{% static 'passwords/jquery.slim.min.js' %}"></script>
+    <script src="{% static 'passwords/bootstrap.bundle.min.js' %}" ></script>
+   {% endblock content %}
+   </div>
+   </body>
+</html>

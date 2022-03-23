@@ -1,0 +1,6 @@
+env/
+*.pyc
+db.sqlite3
+Chapter*
+Activity_Solutions
+ 
