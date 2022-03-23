@@ -1,6 +1,6 @@
 env/
 *.pyc
 db.sqlite3
-Chapter*
-Activity_Solutions
+Chapter02/*
+Activity_Solutions/*
  
